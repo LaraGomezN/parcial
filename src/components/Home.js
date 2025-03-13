@@ -8,15 +8,15 @@ export default function Home() {
             <Row>
                 <Col>
                     <h1>Cycling</h1>
-                    <SportCompose />
+                    <SportCompose activity={"cycling"}/>
                 </Col>
                 <Col>
                     <h1>Running</h1>
-                    <SportCompose />
+                    <SportCompose activity={"running"}/>
                 </Col>
                 <Col>
                     <h1>Swimming</h1>
-                    <SportCompose />
+                    <SportCompose activity={"swimming"}/>
                 </Col>
             </Row>
         </div>
